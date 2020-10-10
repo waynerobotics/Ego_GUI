@@ -1,5 +1,13 @@
-from Tkinter import *
-import Tkinter as tk
+#!/usr/bin/env python3
+
+import sys
+if sys.version_info[0] == 3:
+    from tkinter import *   #Python 3
+    import tkinter as tk
+else:
+    from Tkinter import *   ## Python 2
+    import Tkinter as tk
+
 # from tk import *
 
 window = tk.Tk()
